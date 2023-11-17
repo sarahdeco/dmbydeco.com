@@ -145,6 +145,11 @@ figure {
 }
 
 /* Conservation */
+#conservation figure img {
+  width: 100%;
+  height: auto;
+}
+
 #conservation h2 {
   margin-bottom: 20px;
 }

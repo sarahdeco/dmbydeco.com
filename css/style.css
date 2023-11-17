@@ -4,7 +4,7 @@
 h1 {
   font-size: 48px;
   font-family: "Playfair Display", "Georgia", serif;
-  margin-bottom: 20px;
+  margin: 20px;
   max-width: 60ch;
 }
 
@@ -113,7 +113,7 @@ figure {
 #discover {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 #discover h2 {
@@ -133,7 +133,7 @@ figure {
 .facts-article-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .facts-article {
@@ -163,7 +163,7 @@ figure {
 #conservation {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 #conservation h2 {
@@ -184,7 +184,7 @@ figure {
 .resources-article-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .resources-article {

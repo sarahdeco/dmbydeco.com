@@ -110,14 +110,9 @@ figure {
 
 /* Discover */
 #discover {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 20px;
-}
-
-#discover figure img {
-  width: 100%;
-  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 #discover h2 {
@@ -194,6 +189,7 @@ figure {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .resources-article {
   max-width: 60ch;
   background-color: #00843d;

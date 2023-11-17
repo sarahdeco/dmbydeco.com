@@ -65,12 +65,13 @@ a:active {
 
 /* Header */
 header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   text-align: left;
   background-color: #000000;
   color: #ffffff;
   padding: 20px;
-  display: flex;
-  flex-direction: column;
 }
 
 /* Navigation Bar */

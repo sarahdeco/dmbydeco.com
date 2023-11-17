@@ -75,15 +75,18 @@ header {
 
 /* Navigation Bar */
 nav {
-  display: flex;
-  justify-content: flex-start;
+  text-align: center;
 }
 
 nav ul {
-  display: flex;
   list-style-type: none;
-  padding: 0;
-  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+nav ul li {
+  white-space: nowrap;
 }
 
 nav ul li {

@@ -106,8 +106,23 @@ figure {
 }
 
 /* Discover */
+#discover {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+}
+
+#discover figure img {
+  width: 100%;
+  height: auto;
+}
+
 #discover h2 {
   margin-bottom: 20px;
+}
+
+#discover p:nth-child(2), {
+  margin-bottom: 10px;
 }
 
 /* Fun Facts */

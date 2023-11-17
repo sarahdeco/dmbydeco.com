@@ -134,6 +134,7 @@ figure {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .facts-article {
   max-width: 60ch;
   background-color: #00843d;
@@ -159,14 +160,9 @@ figure {
 
 /* Conservation */
 #conservation {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 20px;
-}
-
-#conservation figure img {
-  width: 100%;
-  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 #conservation h2 {

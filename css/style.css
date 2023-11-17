@@ -124,6 +124,7 @@ figure {
 #facts {
   border: 1px dashed #000000;
   background-color: #ffffff;
+  align-items: center;
 }
 
 #facts h2 {
@@ -182,13 +183,14 @@ figure {
 }
 
 /* Additional Resources */
-#resources h2 {
-  text-align: center;
-}
-
 #resources {
   border: 1px dashed #000000;
   background-color: #ffffff;
+  align-items: center;
+}
+
+#resources h2 {
+  text-align: center;
 }
 
 .resources-article-container {
@@ -225,5 +227,6 @@ footer {
   color: #ffffff;
   padding: 20px;
   text-align: center;
+  align-items: center;
 }
 

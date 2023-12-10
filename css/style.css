@@ -116,6 +116,8 @@ header a {
 /* Homepage */
 .welcome {
   background: url("../images/nyc_skyline_transparent.png") center/cover no-repeat;
+  padding: 0px;
+  margin-top: 64px;
 }
 
 .welcome img {

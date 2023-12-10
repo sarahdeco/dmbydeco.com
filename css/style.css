@@ -112,6 +112,15 @@ header a {
 .welcome {
   background: url("images/nyc_skyline_transparent.png") center/cover no-repeat;
 }
+
+.welcome img {
+  max-width: 720px;
+  min-width: 262px;
+  width: calc(100vw - 128px);
+  margin: 0px 64px;
+  padding: 0px;
+}
+
 /* About */
 /* Portfolio */
 /* Resume */

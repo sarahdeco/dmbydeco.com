@@ -45,10 +45,16 @@ header {
 
 header h1 {
   text-align: left;
+  margin-right: auto;
 }
 
 header img {
   height: 32px;
+  margin: auto;
+}
+
+header nav {
+  margin-left: auto;
 }
 
 header nav ul {

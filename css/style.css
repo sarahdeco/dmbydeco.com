@@ -135,8 +135,8 @@ header a {
 }
 
 .portfolio img {
-  max-width: 405px;
-  width: calc(100vw - 32px);
+  max-width: 448px;
+  min-width: 360px;
   margin: 16px;
   padding: 0px;
 }

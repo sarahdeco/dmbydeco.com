@@ -111,8 +111,8 @@ header a {
 /* Homepage */
 .welcome {
   background: url("../images/nyc_skyline_transparent.png") center/cover no-repeat;
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  display: flex;
+  flex-wrap: wrap;
   max-width: calc(100vw - 32px);
   margin: 0px;
   padding: 128px 0px 0px 0px;
@@ -122,7 +122,7 @@ header a {
   max-width: 540px;
   min-width: 280px;
   width: calc(100vw - 128px);
-  margin: 0px;
+  margin: 0px 64px;
   padding: 0px;
 }
 
@@ -139,11 +139,6 @@ header a {
   margin: 16px;
   padding: 0px;
 }
-
-@media only screen and (max-width: 720px)
-  .welcome {
-    grid-template-columns: 1fr;
-  }
 
 /* About */
 /* Portfolio */

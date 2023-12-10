@@ -66,11 +66,6 @@ a {
   text-decoration: none;
 }
 
-img {
-  min-width: 262px;
-  width: calc(100vw - 128px);
-}
-
 /* Navigation Bar */
 header {
   height: 56px;
@@ -86,7 +81,6 @@ header {
 
 header img {
   height: 24px;
-  width: 48px;
   margin: auto;
 }
 

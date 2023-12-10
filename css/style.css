@@ -112,7 +112,7 @@ header a {
 .welcome {
   background: url("../images/nyc_skyline_transparent.png") center/cover no-repeat;
   margin: 0px;
-  padding: 64px 0px 0px 0px;
+  padding: 128px 0px 0px 0px;
 }
 
 .welcome img {

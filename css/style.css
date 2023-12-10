@@ -47,21 +47,21 @@ header h1 {
   text-align: left;
 }
 
-img {
+header img {
   height: 32px;
   margin-right: auto;
   margin-left: 0;
 }
 
-nav {
+header nav {
   margin-left: auto;
 }
 
-p {
+header p {
   text-align: right;
 }
 
-a {
+header a {
   color: #ffffff;
 }
 

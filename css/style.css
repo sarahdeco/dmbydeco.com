@@ -110,7 +110,7 @@ header a {
 /* Footer */
 /* Homepage */
 .welcome {
-  background: url("images/nyc_skyline_transparent.png") center/cover no-repeat;
+  background: url("../images/nyc_skyline_transparent.png") center/cover no-repeat;
 }
 
 .welcome img {

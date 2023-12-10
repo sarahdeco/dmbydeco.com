@@ -37,12 +37,13 @@ a {
 /* Navigation Bar */
 header {
   height: 56px;
-  width: 100%;
+  width: 100vw;
   background-color: #000000;
   color: #ffffff;
   padding: 8px 64px;
   display: flex;
   align-items: center;
+  box-sizing: border-box;
 }
 
 header img {

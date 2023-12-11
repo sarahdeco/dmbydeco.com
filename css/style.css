@@ -351,12 +351,14 @@ footer div article p a:active {
 
 /* Portfolio */
 .portfolio-header article {
+  max-width: 25vw;
   color: #000000;
   background-color: #ff6b00;
   border: 4px solid #000000;
   border-radius: 8px;
   margin: 32px 0px;
   padding: 12px;
+  box-sizing: border-box;
 }
 
 .portfolio-container {

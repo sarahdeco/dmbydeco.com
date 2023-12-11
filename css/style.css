@@ -226,7 +226,6 @@ footer div div article p a:active {
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  flex-wrap; wrap;
   justify-content: center;
   align-items: center;
 }
@@ -236,7 +235,7 @@ footer div div article p a:active {
   background-color: #ff6b00;
   border: 4px solid #000000;
   border-radius: 8px;
-  margin: 32px 0px;
+  margin: 0px 32px;
   padding: 12px;
 }
 
@@ -254,7 +253,6 @@ footer div div article p a:active {
 .portfolio div:nth-child(1){
   display: flex;
   flex-direction: row;
-  flex-wrap; wrap;
   justify-content: center;
   align-items: center;
 }
@@ -269,7 +267,6 @@ footer div div article p a:active {
 .portfolio div:nth-child(2){
   display: flex;
   flex-direction: column;
-  flex-wrap; wrap;
   justify-content: flex-start;
   align-items: center;
 }

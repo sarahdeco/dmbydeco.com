@@ -287,7 +287,7 @@ footer div article p a:active {
 }
 
 /* About */
-.founder {
+.about-page {
   background-image: url("../images/nyc_skyline_transparent.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -302,7 +302,7 @@ footer div article p a:active {
   box-sizing: border-box;
 }
 
-.founder figure {
+.about-page figure {
   max-width: 540px;
   margin: 0px 32px;
   padding: 0px;
@@ -312,7 +312,7 @@ footer div article p a:active {
   align-items: center;
 }
 
-.founder figure img {
+.about-page figure img {
   max-width: 540px;
   border: 4px solid #000000;
   border-radius: 8px;
@@ -320,7 +320,7 @@ footer div article p a:active {
   padding: 0px;
 }
 
-.founder figure figcaption {
+.about-page figure figcaption {
   color: #000000;
   background-color: #ffffff;
   border: 4px solid #000000;
@@ -329,7 +329,7 @@ footer div article p a:active {
   padding: 12px;
 }
 
-.founder article:nth-child(1){
+.about-page article:nth-child(1){
   color: #000000;
   background-color: #ff6b00;
   border: 4px solid #000000;
@@ -338,9 +338,9 @@ footer div article p a:active {
   padding: 12px;
 }
 
-.founder article:nth-child(2),
-.founder article:nth-child(3),
-.founder article:nth-child(4) {
+.about-page article:nth-child(2),
+.about-page article:nth-child(3),
+.about-page article:nth-child(4) {
   color: #000000;
   background-color: #81d5fe;
   border: 4px solid #000000;
@@ -350,7 +350,6 @@ footer div article p a:active {
 }
 
 /* Portfolio */
-
 .portfolio-header article {
   color: #000000;
   background-color: #ff6b00;

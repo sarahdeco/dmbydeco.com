@@ -248,6 +248,7 @@ footer div div article p a:active {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .portfolio div:nth-child(1){
@@ -269,7 +270,7 @@ footer div div article p a:active {
   display: flex;
   flex-direction: column;
   flex-wrap; wrap;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 

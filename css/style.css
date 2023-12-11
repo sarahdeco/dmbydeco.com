@@ -96,38 +96,37 @@ h3 a:active {
 header {
   height: 56px;
   width: 100vw;
+  max-width: 100vw;
   position: fixed;
   background-color: #000000;
   color: #ffffff;
-}
-
-header div {
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 16px;
+  padding: 0 32px;
 }
 
-header div img {
+header img {
   height: 24px;
 }
 
-header div nav {
+header nav {
   margin-left: auto;
 }
 
-header div nav ul {
+header nav ul {
   list-style: none;
   padding: 0px;
   margin: 0px;
   display: flex;
 }
 
-header div nav ul li {
+header nav ul li {
   margin-left: 16px;
 }
 
-header div p {
+header p {
   text-align: right;
 }
 

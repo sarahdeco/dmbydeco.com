@@ -15,17 +15,18 @@ body {
 
 h1 {
   font-size: 18px;
+  text-align: left;
   font-family: "Aldrich", "Arial", sans-serif;
   font-weight: 400;
   max-width: 60ch;
   margin: 0px;
   padding: 0px;
-  text-align: left;
   margin-right: auto;
 }
 
 h2 {
   font-size: 48px;
+  text-align: left;
   font-family: "Aldrich", "Arial", sans-serif;
   font-weight: 400;
   max-width: 60ch;
@@ -35,6 +36,7 @@ h2 {
 
 h3 {
   font-size: 24px;
+  text-align: left;
   font-family: "Aldrich", "Arial", sans-serif;
   font-weight: 400;
   max-width: 60ch;
@@ -44,6 +46,7 @@ h3 {
 
 h4 {
   font-size: 18px;
+  text-align: left;
   font-family: "Aldrich", "Arial", sans-serif;
   font-weight: 400;
   max-width: 60ch;
@@ -53,6 +56,7 @@ h4 {
 
 p {
   font-size: 16px;
+  text-align: left;
   font-family: "Roboto", "Arial", sans-serif;
   font-weight: 300;
   max-width: 60ch;
@@ -62,6 +66,7 @@ p {
 
 p small {
   font-size: 12px;
+  text-align: left;
   font-family: "Roboto", "Arial", sans-serif;
   font-weight: 300;
   max-width: 60ch;
@@ -345,27 +350,40 @@ footer div article p a:active {
 }
 
 /* Portfolio */
+
 .portfolio-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 32px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
     padding: 32px;
 }
 
-.projects {
-    padding: 16px;
-    text-align: center;
+.portfolio-container img {
+    max-width: 25vw;
     border: 4px solid #000000;
     border-radius: 8px;
-    margin: 32px 0px;
+    margin: 0px 16px 32px 16px;
+    padding: 0px;
 }
 
-.projects:nth-child(odd) {
+.projects {
+    max-width: 25vw;
+    padding: 12px;
+    border: 4px solid #000000;
+    border-radius: 8px;
+    margin: 0px 16px 32px 16px;
+}
+
+.projects:nth-child(1), .projects:nth-child(3) {
     color: #000000;
     background-color: #ff6b00;
 }
 
-.projects:nth-child(even) {
+.projects:nth-child(2), .projects:nth-child(4) {
     color: #000000;
     background-color: #81d5fe;
 }

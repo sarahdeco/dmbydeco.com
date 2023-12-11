@@ -176,6 +176,11 @@ footer div div article p a:active {
   text-decoration: underline;
 }
 
+@media only screen and (max-width: 720px)
+  footer div div {
+    flex-direction: column;
+  }
+
 /* Homepage */
 .welcome {
   background-image: url("../images/nyc_skyline_transparent.png");

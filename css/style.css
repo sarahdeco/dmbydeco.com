@@ -140,7 +140,10 @@ footer {
 
 /* Homepage */
 .welcome {
-  background: url("../images/nyc_skyline_transparent.png") center/cover no-repeat;
+  background-image: url("../images/nyc_skyline_transparent.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

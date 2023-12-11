@@ -378,12 +378,14 @@ footer div article p a:active {
     margin: 0px 16px 32px 16px;
 }
 
-.projects:nth-child(1), .projects:nth-child(3) {
+.portfolio-container article:nth-child(1),
+.portfolio-container article:nth-child(3) {
     color: #000000;
     background-color: #ff6b00;
 }
 
-.projects:nth-child(2), .projects:nth-child(4) {
+.portfolio-container article:nth-child(2),
+.portfolio-container article:nth-child(4) {
     color: #000000;
     background-color: #81d5fe;
 }

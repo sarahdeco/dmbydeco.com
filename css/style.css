@@ -183,7 +183,7 @@ footer {
 .portfolio img {
   max-width: 480px;
   min-width: 360px;
-  width: calc(100vw - 32px);
+  width: calc(100vw - 8px);
   border-radius: 8px;
   margin: 16px;
   padding: 0px;

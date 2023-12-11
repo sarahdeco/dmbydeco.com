@@ -157,6 +157,7 @@ footer {
   max-width: 540px;
   min-width: 280px;
   width: calc(100vw - 128px);
+  border-radius: 0px;
   margin: 0px 32px;
   padding: 0px;
 }

@@ -78,6 +78,12 @@ a {
   text-decoration: none;
 }
 
+a:visited {
+  color: #828282;
+  text-decoration: underline;
+}
+  
+
 /* Buttons */
 h3 a {
   padding: 12px;

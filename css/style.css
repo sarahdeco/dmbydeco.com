@@ -147,6 +147,9 @@ footer {
   background-color: #000000;
   color: #ffffff;
   padding: 128px 32px;
+}
+
+footer div {
   display: flex;
   align-items: center;
   justify-content: space-between;

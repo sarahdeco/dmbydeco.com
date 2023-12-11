@@ -302,6 +302,7 @@ footer div article p a:active {
   margin: 0px 32px;
   padding: 0px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }

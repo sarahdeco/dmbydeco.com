@@ -66,6 +66,28 @@ a {
   text-decoration: none;
 }
 
+img {
+  border-radius: 8px;
+}
+
+/* Buttons */
+h3 a {
+  padding: 12px;
+  color: #ffffff;
+  background-color: #828282;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+}
+
+h3 a:hover,
+h3 a:active {
+  color: #ffffff;
+  background-color: #ff6b00;
+  text-decoration: underline;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+}
+
 /* Navigation Bar */
 header {
   height: 56px;
@@ -107,6 +129,15 @@ header a {
 }
 
 /* Footer */
+footer {
+  width: 100vw;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 128px 64px;
+  display: flex;
+  align-items: center;
+}
+
 /* Homepage */
 .welcome {
   background: url("../images/nyc_skyline_transparent.png") center/cover no-repeat;
@@ -138,7 +169,7 @@ header a {
 .portfolio img {
   max-width: 448px;
   min-width: 360px;
-  width: calc(100vw - 64px);
+  width: calc(100vw - 32px);
   margin: 16px;
   padding: 0px;
 }

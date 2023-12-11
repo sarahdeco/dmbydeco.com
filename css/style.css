@@ -130,12 +130,12 @@ header p {
   text-align: right;
 }
 
-header div p a {
+header p a {
   color: #ffffff;
 }
 
-header div p a:hover,
-header div p a:active {
+header p a:hover,
+header p a:active {
   color: #81d5fe;
   font-weight: 500;
   text-decoration: underline;

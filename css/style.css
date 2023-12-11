@@ -146,9 +146,10 @@ footer {
   width: 100vw;
   background-color: #000000;
   color: #ffffff;
-  padding: 128px calc(100vw-5vw);
+  padding: 128px 32px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 /* Homepage */
@@ -162,7 +163,7 @@ footer {
   justify-content: center;
   width: 100vw;
   margin: 0px;
-  padding: 128px calc(100vw-5vw);
+  padding: 128px 32px 64px 32px;
 }
 
 .welcome img {

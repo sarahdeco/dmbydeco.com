@@ -259,7 +259,7 @@ footer div article p a:active {
 .portfolio div img {
   max-width: 30vw;
   border-radius: 8px;
-  margin: 0px 16px;
+  margin: 0px 16px 32px 16px;
   padding: 0px;
 }
 

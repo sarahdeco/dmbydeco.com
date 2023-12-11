@@ -103,6 +103,7 @@ header {
 
 header div {
   display: flex;
+  justify-content: center;
   align-items: center;
   margin: auto;
 }
@@ -152,8 +153,16 @@ footer {
 
 footer div {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
+}
+
+footer div div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Homepage */
@@ -165,6 +174,7 @@ footer div {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   width: 100vw;
   margin: 0px;
   padding: 120px 32px 64px 32px;

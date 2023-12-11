@@ -299,6 +299,7 @@ footer div div article p a:active {
 .founder figure img {
   max-width: 540px;
   border: 4px solid #000000;
+  border-radius: 8px;
   margin: 0px
   padding: 0px;
 }

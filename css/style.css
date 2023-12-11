@@ -350,7 +350,7 @@ footer div article p a:active {
 }
 
 /* Portfolio */
-.portfolio-header article {
+.portfolio-header {
   background-image: url("../images/nyc_skyline_transparent.png");
   background-position: center;
   background-repeat: no-repeat;

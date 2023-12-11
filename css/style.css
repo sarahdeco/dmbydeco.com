@@ -76,7 +76,6 @@ header {
   padding: 8px 64px;
   display: flex;
   align-items: center;
-  box-sizing: border-box;
 }
 
 header img {

@@ -335,7 +335,8 @@ footer div article p a:active {
   padding: 12px;
 }
 
-.about-page article:nth-child(1){
+.about-page article:nth-child(1),
+.about-page article:nth-child(3) {
   color: #000000;
   background-color: #ff6b00;
   border: 4px solid #000000;
@@ -345,7 +346,6 @@ footer div article p a:active {
 }
 
 .about-page article:nth-child(2),
-.about-page article:nth-child(3),
 .about-page article:nth-child(4) {
   color: #000000;
   background-color: #81d5fe;

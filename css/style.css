@@ -79,9 +79,9 @@ a {
 /* Buttons */
 h3 a {
   padding: 12px;
-  color: #ffffff;
-  background-color: #ff6b00;
-  border: 4px solid #81d5fe;
+  color: #000000;
+  background-color: #81d5fe;
+  border: 4px solid #000000;
   border-radius: 8px;
 }
 

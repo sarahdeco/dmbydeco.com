@@ -238,7 +238,7 @@ footer div div article p a:active {
   align-items: center;
 }
 
-.portfolio img {
+.portfolio div img {
   max-width: 360px;
   border-radius: 8px;
   margin: 16px;
@@ -251,6 +251,13 @@ footer div div article p a:active {
   flex-wrap; wrap;
   justify-content: center;
   align-items: center;
+}
+
+.portfolio div article {
+  max-width: 360px;
+  border-radius: 8px;
+  margin: 16px;
+  padding: 0px;
 }
 
 /* About */

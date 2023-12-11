@@ -281,5 +281,44 @@ footer div div article p a:active {
 }
 
 /* About */
+.founder {
+  background-image: url("../images/nyc_skyline_transparent.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 0px;
+  padding: 120px 32px 64px 32px;
+  box-sizing: border-box;
+}
+
+.founder figure img {
+  max-width: 540px;
+  border: 4px solid #000000;
+  margin: 0px
+  padding: 0px;
+}
+
+.founder figure {
+  max-width: 540px;
+  margin: 0px 32px;
+  padding: 0px;
+}
+
+
+.founder div {
+  color: #000000;
+  background-color: #ff6b00;
+  border: 4px solid #000000;
+  border-radius: 8px;
+  margin: 0px 32px;
+  padding: 12px;
+  padding: 0px;
+}
+
 /* Portfolio */
 /* Resume */

@@ -397,6 +397,8 @@ footer div article p a:active {
 }
 
 .portfolio-container article {
+    color: #ffffff;
+    background-color: #000000;
     max-width: 25vw;
     max-height: 25vw;
     padding: 12px;

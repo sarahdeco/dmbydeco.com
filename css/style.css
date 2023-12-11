@@ -66,10 +66,6 @@ a {
   text-decoration: none;
 }
 
-img {
-  border-radius: 8px;
-}
-
 /* Buttons */
 h3 a {
   padding: 12px;
@@ -102,7 +98,6 @@ header {
 
 header img {
   height: 24px;
-  border-radius: 0px;
   margin: auto;
 }
 
@@ -157,7 +152,6 @@ footer {
   max-width: 540px;
   min-width: 280px;
   width: calc(100vw - 128px);
-  border-radius: 0px;
   margin: 0px 32px;
   padding: 0px;
 }
@@ -175,6 +169,7 @@ footer {
   max-width: 448px;
   min-width: 360px;
   width: calc(100vw - 32px);
+  border-radius: 8px;
   margin: 16px;
   padding: 0px;
 }

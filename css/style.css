@@ -164,6 +164,10 @@ footer div div {
   align-items: flex-start;
 }
 
+footer div div article {
+  margin: 16px
+}
+
 footer div div article p a {
   color: #ffffff;
   text-decoration: underline;
@@ -222,7 +226,7 @@ footer div div article p a:active {
 }
 
 .portfolio img {
-  max-width: 540px;
+  max-width: 480px;
   border-radius: 8px;
   margin: 16px;
   padding: 0px;

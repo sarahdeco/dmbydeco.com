@@ -257,7 +257,7 @@ footer div article p a:active {
 }
 
 .portfolio div img {
-  max-width: 30vw;
+  max-width: 25vw;
   border: 4px solid #000000;
   border-radius: 8px;
   margin: 0px 16px 32px 16px;
@@ -297,6 +297,15 @@ footer div article p a:active {
   box-sizing: border-box;
 }
 
+.founder figure {
+  max-width: 540px;
+  margin: 0px 32px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .founder figure img {
   max-width: 540px;
   border: 4px solid #000000;
@@ -305,10 +314,12 @@ footer div article p a:active {
   padding: 0px;
 }
 
-.founder figure {
-  max-width: 540px;
-  margin: 0px 32px;
-  padding: 0px;
+.founder figure figcaption {
+  color: #000000;
+  background-color: #ffffff;
+  border: 4px solid #000000;
+  border-radius: 8px;
+  padding: 12px;
 }
 
 .founder article:nth-child(1){

@@ -144,37 +144,35 @@ header p a:active {
 /* Footer */
 footer {
   width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #000000;
   color: #ffffff;
   padding: 64px 32px;
   box-sizing: border-box;
 }
 
+
 footer div {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
-footer div div {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-footer div div article {
+footer div article {
   margin: 16px
 }
 
-footer div div article p a {
+footer div article p a {
   color: #ffffff;
   text-decoration: underline;
 }
 
-footer div div article p a:hover,
-footer div div article p a:active {
+footer div article p a:hover,
+footer div article p a:active {
   color: #81d5fe;
   font-weight: 500;
   text-decoration: underline;

@@ -97,37 +97,47 @@ header {
   position: fixed;
   background-color: #000000;
   color: #ffffff;
-  padding: 8px 64px;
+  padding: 8px calc(100vw-5vw);
+}
+
+header div {
   display: flex;
   align-items: center;
 }
 
-header img {
+header div img {
   height: 24px;
   margin: auto;
 }
 
-header nav {
+header div nav {
   margin-left: auto;
 }
 
-header nav ul {
+header div nav ul {
   list-style: none;
   padding: 0px;
   margin: 0px;
   display: flex;
 }
 
-header nav ul li {
+header div nav ul li {
   margin-left: 16px;
 }
 
-header p {
+header div p {
   text-align: right;
 }
 
-header a {
+header div p a {
   color: #ffffff;
+}
+
+header div p a:hover,
+header div p a:active {
+  color: #ffffff;
+  font-weight: 300;
+  text-decoration: underline;
 }
 
 /* Footer */
@@ -135,7 +145,7 @@ footer {
   width: 100vw;
   background-color: #000000;
   color: #ffffff;
-  padding: 128px 64px;
+  padding: 128px calc(100vw-5vw);
   display: flex;
   align-items: center;
 }
@@ -151,13 +161,12 @@ footer {
   justify-content: center;
   width: 100vw;
   margin: 0px;
-  padding: 128px 64px;
+  padding: 128px calc(100vw-5vw);
 }
 
 .welcome img {
   max-width: 540px;
-  min-width: 280px;
-  width: calc(100vw - 128px);
+  min-width: 75vw;
   margin: 0px 32px;
   padding: 0px;
 }
@@ -182,8 +191,7 @@ footer {
 
 .portfolio img {
   max-width: 480px;
-  min-width: 360px;
-  width: calc(100vw - 8px);
+  min-width: 90vw;
   border-radius: 8px;
   margin: 16px;
   padding: 0px;
